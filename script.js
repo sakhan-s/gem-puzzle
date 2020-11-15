@@ -40,7 +40,7 @@ function move(index) {
     });
 
     if (isFinished) {
-        alert('You won')
+        alert('КРАСАУЧЫК, УАССЯ')
     }
 }
 const numbers = [...Array(15).keys()]

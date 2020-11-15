@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamearea {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 15px;
+    position: relative;
+    margin: auto auto;
+}
+
+.cell {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid yellow;
+    color: white;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: all 0.1s;
+}
